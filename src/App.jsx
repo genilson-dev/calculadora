@@ -1,14 +1,14 @@
-import './App.css';
-import Calculator from './main/Calculator';
+// import './App.css';
+// import Calculator from './main/Calculator';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello world!</h1> 
-      <Calculator />
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1>Hello world!</h1> 
+//       <Calculator />
 
-    </div>
-  );
-}
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;
