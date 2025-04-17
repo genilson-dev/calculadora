@@ -1,6 +1,6 @@
 :root {
     --bg-button: #f0f0f0;
-    --border-button: solid 1px #888;
+    --border-button: solid 2px #fcfcfc;
 }
 
 .button {
@@ -13,7 +13,27 @@
     outline: none;
     /* padding: 10px; */
     /* margin: 5px; */
-    /* cursor: pointer; */
+    cursor: pointer; 
     /* transition: background-color 0.3s, transform 0.2s; */
 }
 
+.button:active{
+    background-color: #000103;
+    color: white;
+    font-size: 33px;
+}
+
+.button.double {
+    grid-column: span 2;
+}
+.button.triple {
+    grid-column: span 3;
+}
+.button.operation {
+    background-color: #fa8231;
+    color: #fff;
+}
+.button.operation:active {
+    background-color: #fa8231cc;
+    color: #fff;
+}
